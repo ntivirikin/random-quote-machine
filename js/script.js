@@ -6,7 +6,7 @@ $(document).ready(function(){
 				dataType: "jsonp",
 				crossDomain: true,
 				jsonpCallback: "parseQuote",
-				url: "http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=parseQuote"
+				url: "https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=parseQuote"
 			})
 
 			.done(function(json){
